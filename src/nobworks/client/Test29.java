@@ -27,7 +27,7 @@ import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
-// aaaa
+// Test-1 GWT2.6
 public class Test29 implements EntryPoint {
 	
 	private static Channel channel;

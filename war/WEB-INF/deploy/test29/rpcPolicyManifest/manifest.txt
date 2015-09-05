@@ -1,2 +1,3 @@
 # Module test29
 # RPC service class, partial path of RPC policy file
+nobworks.client.channel.ChannelService, 9BF86B393DC710C4819475F601A71E38.gwt.rpc
