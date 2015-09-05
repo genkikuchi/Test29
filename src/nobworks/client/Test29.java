@@ -28,6 +28,7 @@ import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 // Test-1 GWT2.6.1
+// Test-2 by MBP
 // Test-3 iMac
 public class Test29 implements EntryPoint {
 	
