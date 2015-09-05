@@ -1,0 +1,100 @@
+<!doctype html>
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link type="text/css" rel="stylesheet" href="Test29.css">
+
+<title>NanoSignage Player Light</title>
+<script src="/_ah/channel/jsapi"></script>
+
+<style>
+body {
+	font-family: "Droid Serif", serif;
+	color: white;
+	background-color: black;
+	line-height: 150%;
+	border: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden !important;
+	text-align: center;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+	margin: auto auto;
+	overflow: hidden !important;
+	z-index: 1;
+	background-color: black;
+}
+
+#messages {
+	color: white;
+	float: left;
+	margin-left: 25px;
+	margin-top: 25px;
+	z-index: 3;
+	position: absolute;
+	font-weight: bold;
+	width: 1000PX;
+	background-color: rgba(0, 0, 0, 0.5);
+	visibility: hidden;
+}
+
+#messages span {
+	font-weight: normal;
+}
+
+#defaultImage {
+	color: black;
+	float: left;
+	z-index: 2;
+	position: absolute;
+	font-weight: bold;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	visibility: visible;
+}
+
+#image {
+	color: black;
+	float: left;
+	z-index: 1;
+	position: absolute;
+	font-weight: bold;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	visibility: hidden;
+}
+</style>
+<script type="text/javascript" language="javascript" src="test29/test29.nocache.js"></script>
+</head>
+
+<body id="body">
+
+	<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+	<noscript>
+		<div
+			style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+			Your web browser must have JavaScript enabled in order for this
+			application to display correctly.</div>
+	</noscript>
+
+	<input type="hidden" id="channelUUID" value="" />
+	<input type="hidden" id="playerUUID" value=""/>
+	<input type="hidden" id="cache" value=""/>
+	<input type="hidden" id="log" value=""/>
+
+ 	<div id="defaultImage"><img id="defaultImageImg" src="images/receiverDefault.jpg" height="100%" /></div>
+ 	<div id="image"><img id="imageImg" src="" height="100%" /></div>
+
+    <video id="receiverVideoElement"></video>
+    <div id="baseLayout"></div>
+</body>
+</html>
